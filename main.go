@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "orbitfs/cmd"
 
 func main() {
-	fmt.Print("Hey there!")
+	cmd.Execute()
 }
